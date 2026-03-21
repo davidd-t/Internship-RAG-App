@@ -1,0 +1,21 @@
+Roadmap – RAG APP
+Create a backend app that will support a RAG system. This system will serve for general purpose Q&A system.
+Guidelines:
+Technologies: FastAPI, SQLAlchemy, Llama-Index, any db (PostgreSQL recommended).
+
+Features sugestions:
+-	Login/Register (basic auth or with google)
+-	User profile endpoints
+-	Collections endpoints
+-	CRUD for documents
+o	Create an endpoint for each document action: CREATE, READ, UPDATE, DELETE
+o	* Add document support for .xml / .csv / .pdf
+-	Indexing/Embedding endpoints (decide yourself)
+-	Retrieval/Querying endpoints
+o	Endpoint for simple querying (this means no chat history, only a question)
+o	Endpoint for chat querying (this will include chat history and chat context)
+-	Admin endpoints: this settings should apply globally across the app
+o	Model parameters
+o	Custom prompts
+o	* whatever...
+-	** ANYTHING EXTRA IS WELCOME

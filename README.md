@@ -1,5 +1,5 @@
 # RAGility
-## This project is part of the Assist Software Intership program.
+## This project is part of an intership program.
 
 A Retrieval-Augmented Generation web application that provides a Q&A system. Built with FastAPI on the backend and Streamlit frontend.
 
